@@ -1,0 +1,47 @@
+{
+  "navLinks": [
+    {
+      "to": "home",
+      "text": "Home"
+    },
+    {
+      "to": "service",
+      "text": "Service"
+    },
+
+    {
+      "to": "portfolio",
+      "text": "Portfolio"
+    },
+    {
+      "to": "resume",
+      "text": "Resume"
+    },
+    {
+      "to": "skills",
+      "text": "Skills"
+    },
+    {
+      "to": "contact",
+      "text": "Contact"
+    }
+  ],
+  "navInfo": [
+    {
+      "title": "NAME",
+      "text": "Rifky Andhika Maulana"
+    },
+    {
+      "title": "ROLE",
+      "text": "Web Development"
+    },
+    {
+      "title": "EMAIL",
+      "text": "rifkyandhikam@gmail.com"
+    },
+    {
+      "title": "PHONE",
+      "text": "(+62) 822 581 273 49"
+    }
+  ]
+}

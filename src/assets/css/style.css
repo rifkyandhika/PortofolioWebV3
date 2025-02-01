@@ -541,7 +541,7 @@ h2.section-title {
 .home-right-part {
   flex: 1 0 0;
   height: 100%;
-  background-image: url(../images/home/home.jpg);
+  background-image: url(../images/home/foto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -553,8 +553,8 @@ h2.section-title {
 }
 
 h1.entry-title {
-  font-size: 100px;
-  line-height: 94px;
+  font-size: 90px;
+  line-height: 97px;
   font-weight: 800;
   color: #f37b83;
 }
@@ -1035,7 +1035,7 @@ div.pp_default .pp_description {
 
 ul.timeline-holder {
   margin: 0;
-  padding: 0 0 0 55px;
+  padding: 0 0 0 5px;
 }
 
 li.timeline-event {
@@ -1363,7 +1363,7 @@ p.contact-submit-holder {
 }
 
 .slider-container .slick-slide i {
-  font-size: 14rem; /* Mengatur ukuran ikon menjadi lebih besar */
+  font-size: 10rem; /* Mengatur ukuran ikon menjadi lebih besar */
 }
 
 @keyframes loading-animation {

@@ -90,7 +90,7 @@ function Navbar({ isLanding }: NavbarProps) {
                 <p className="my-info-content">{info.text}</p>
               </div>
             ))}
-            <img className="my-info-signature" src={signature} alt="" />
+            {/* <img className="my-info-signature" src={signature} alt="" /> */}
           </div>
 
           <div className="big-num">

@@ -13,7 +13,7 @@ function Resume() {
       <div className="section-wrapper block">
         <div className="content-1300">
           <div className="row">
-            <div className="one-half width-55">
+            <div className="width-90">
               <h2 className="entry-title section-title">
                 {resumeData.experience.title}
               </h2>
@@ -27,13 +27,14 @@ function Resume() {
                       dangerouslySetInnerHTML={{
                         __html: markdownToHTML(exp.description),
                       }}></div>
-                    <div className="timeline-event-date">{exp.date}</div>
+                    {/* <div className="timeline-event-date">{exp.date}</div> */}
+                    {/* <div className="timeline-event-date">{exp.date}</div> */}
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="one-half width-40 last">
+            {/* <div className="one-half width-40 last">
               <h2 className="entry-title section-title">
                 {resumeData.coverLetter.title}
               </h2>
@@ -42,10 +43,10 @@ function Resume() {
               </p>
               {resumeData.coverLetter.paragraphes.map((parg, i) => (
                 <p key={'parg-' + i}>{parg}</p>
-              ))}
+              ))} */}
 
-              <img className="my-signature" src={signature} alt="" />
-            </div>
+              {/* <img className="my-signature" src={signature} alt="" /> */}
+            {/* </div> */}
           </div>
         </div>
       </div>

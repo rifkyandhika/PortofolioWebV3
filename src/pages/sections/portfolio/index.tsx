@@ -11,13 +11,14 @@ import PortfolioItem2 from './items/PortfolioItem2';
 import PortfolioItem3 from './items/PortfolioItem3';
 
 // Images
-import portfolio1 from '../../../assets/images/portfolio/portfolio1.jpg';
-import portfolio2 from '../../../assets/images/portfolio/portfolio2.jpg';
-import portfolio3 from '../../../assets/images/portfolio/portfolio3.jpg';
-import portfolio4 from '../../../assets/images/portfolio/portfolio4.jpg';
-import portfolio5 from '../../../assets/images/portfolio/portfolio5.jpg';
-import portfolio6 from '../../../assets/images/portfolio/portfolio6.jpg';
-import portfolio7 from '../../../assets/images/portfolio/portfolio6.jpg';
+import portfolio1 from '../../../assets/images/portfolio/56418145_Portofolio1.png';
+import portfolio2 from '../../../assets/images/portfolio/56418145_Portofolio2.jpg';
+import portfolio3 from '../../../assets/images/portfolio/56418145_Portofolio3.jpg';
+import portfolio4 from '../../../assets/images/portfolio/56418145_Portofolio4.png';
+import portfolio5 from '../../../assets/images/portfolio/56418145_Portofolio5.png';
+import portfolio6 from '../../../assets/images/portfolio/56418145_Portofolio6.png';
+import portfolio7 from '../../../assets/images/portfolio/56418145_Portofolio7.png';
+import portfolio8 from '../../../assets/images/portfolio/56418145_Portofolio8.png';
 // --> Portfolio items
 import portfolioItem1 from '../../../assets/images/portfolio/items/item_03.jpg';
 import portfolioItem2 from '../../../assets/images/portfolio/items/item_02.jpg';
@@ -47,6 +48,7 @@ function Portfolio() {
 
   // Portfolio item to be shown (change rendered different components in item folder)
   const [portfolioItem, setPortfolioItem] = useState<number>(0);
+  console.log('portfolioItem :>> ', portfolioItem);
   // Portfolio item to be shown as a popup
   const [openPortfolio, setOpenPortfolio] = useState<number>(0);
 

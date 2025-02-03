@@ -10,4 +10,8 @@ export type PortfolioItemType = {
     text: string;
     caption: string;
   };
+  images: {
+    src: string;
+    alt: string;
+  };
 };

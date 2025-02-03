@@ -5,19 +5,150 @@
       "text": "All"
     },
     {
-      "category": "text",
-      "text": "Text"
+      "category": "html",
+      "text": "HTML"
     },
     {
-      "category": "video",
-      "text": "Video"
+      "category": "php",
+      "text": "PHP"
     },
     {
-      "category": "image",
-      "text": "Image"
+      "category": "reactjs",
+      "text": "React JS"
     }
   ],
   "portfolioItems": [
+    {
+      "order": 0,
+      "category": "html",
+      "action": {
+        "type": "item",
+        "number": 1
+      },
+      "description": {
+        "text": "Home",
+        "caption": "Text"
+      },
+      "images": {
+        "src": "src/assets/images/portfolio/Portofolio1.png",
+        "alt": "Portofolio1"
+      }
+    },
+    {
+      "order": 1,
+      "category": "php",
+      "action": {
+        "type": "item",
+        "number": 2
+      },
+      "description": {
+        "text": "Stairways",
+        "caption": "Text"
+      },
+      "images": {
+        "src": "src/assets/images/portfolio/Portofolio2.jpg",
+        "alt": "Portofolio2"
+      }
+    },
+    {
+      "order": 2,
+      "category": "php",
+      "action": {
+        "type": "item",
+        "number": 3
+      },
+      "description": {
+        "text": "Sneakers",
+        "caption": "Text"
+      },
+      "images": {
+        "src": "src/assets/images/portfolio/Portofolio3.jpg",
+        "alt": "Portofolio3"
+      }
+    },
+    {
+      "order": 3,
+      "category": "html",
+      "action": {
+        "type": "item",
+        "number": 3
+      },
+      "description": {
+        "text": "Sneakers",
+        "caption": "Text"
+      },
+      "images": {
+        "src": "src/assets/images/portfolio/Portofolio4.png",
+        "alt": "Portofolio4"
+      }
+    },
+    {
+      "order": 4,
+      "category": "reactjs",
+      "action": {
+        "type": "item",
+        "number": 3
+      },
+      "description": {
+        "text": "Sneakers",
+        "caption": "Text"
+      },
+      "images": {
+        "src": "src/assets/images/portfolio/Portofolio5.png",
+        "alt": "Portofolio5"
+      }
+    },
+    {
+      "order": 5,
+      "category": "reactjs",
+      "action": {
+        "type": "item",
+        "number": 3
+      },
+      "description": {
+        "text": "Sneakers",
+        "caption": "Text"
+      },
+      "images": {
+        "src": "src/assets/images/portfolio/Portofolio6.png",
+        "alt": "Portofolio6"
+      }
+    },
+    {
+      "order": 6,
+      "category": "reactjs",
+      "action": {
+        "type": "item",
+        "number": 3
+      },
+      "description": {
+        "text": "Sneakers",
+        "caption": "Text"
+      },
+      "images": {
+        "src": "src/assets/images/portfolio/Portofolio7.png",
+        "alt": "Portofolio7"
+      }
+    },
+    {
+      "order": 7,
+      "category": "reactjs",
+      "action": {
+        "type": "item",
+        "number": 3
+      },
+      "description": {
+        "text": "Sneakers",
+        "caption": "Text"
+      },
+      "images": {
+        "src": "src/assets/images/portfolio/Portofolio8.png",
+        "alt": "Portofolio8"
+      }
+    }
+  ],
+  "portfolioItems2": [
+    {"__comment": "Ini hanya untuk cadangan jika ada code diperlukan"},
     {
       "order": 0,
       "category": "text",

@@ -11,14 +11,14 @@ import PortfolioItem2 from './items/PortfolioItem2';
 import PortfolioItem3 from './items/PortfolioItem3';
 
 // Images
-import portfolio1 from '../../../assets/images/portfolio/56418145_Portofolio1.png';
-import portfolio2 from '../../../assets/images/portfolio/56418145_Portofolio2.jpg';
-import portfolio3 from '../../../assets/images/portfolio/56418145_Portofolio3.jpg';
-import portfolio4 from '../../../assets/images/portfolio/56418145_Portofolio4.png';
-import portfolio5 from '../../../assets/images/portfolio/56418145_Portofolio5.png';
-import portfolio6 from '../../../assets/images/portfolio/56418145_Portofolio6.png';
-import portfolio7 from '../../../assets/images/portfolio/56418145_Portofolio7.png';
-import portfolio8 from '../../../assets/images/portfolio/56418145_Portofolio8.png';
+import portfolio1 from '../../../assets/images/portfolio/Portofolio1.png';
+import portfolio2 from '../../../assets/images/portfolio/Portofolio2.jpg';
+import portfolio3 from '../../../assets/images/portfolio/Portofolio3.jpg';
+import portfolio4 from '../../../assets/images/portfolio/Portofolio4.png';
+import portfolio5 from '../../../assets/images/portfolio/Portofolio5.png';
+import portfolio6 from '../../../assets/images/portfolio/Portofolio6.png';
+import portfolio7 from '../../../assets/images/portfolio/Portofolio7.png';
+import portfolio8 from '../../../assets/images/portfolio/Portofolio8.png';
 // --> Portfolio items
 import portfolioItem1 from '../../../assets/images/portfolio/items/item_03.jpg';
 import portfolioItem2 from '../../../assets/images/portfolio/items/item_02.jpg';
@@ -201,7 +201,7 @@ function Portfolio() {
                               handleOpenPopup(item.action.number);
                             }
                           }}>
-                          <img src={images[item.order]} alt="" />
+                          <img src={item.images.src} alt={item.images.alt} />
                           <div className="portfolio-text-holder">
                             <div className="portfolio-text-wrapper">
                               <p className="portfolio-text">

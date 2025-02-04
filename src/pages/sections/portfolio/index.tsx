@@ -48,7 +48,6 @@ function Portfolio() {
 
   // Portfolio item to be shown (change rendered different components in item folder)
   const [portfolioItem, setPortfolioItem] = useState<number>(0);
-  console.log('portfolioItem :>> ', portfolioItem);
   // Portfolio item to be shown as a popup
   const [openPortfolio, setOpenPortfolio] = useState<number>(0);
 

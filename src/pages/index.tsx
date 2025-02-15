@@ -6,8 +6,8 @@ import Service from './sections/Service';
 import Resume from './sections/Resume';
 import Contact from './sections/Contact';
 import Portfolio from './sections/portfolio';
+// import Skills from './sections/Skills';
 import Skills from './sections/Skills';
-import InfiniteCarousel from './sections/InfiniteCarousel';
 
 // Components
 import Loader from '../components/Loader';
@@ -43,7 +43,6 @@ function Home() {
             <Service />
             <Portfolio />
             <Resume />
-            <InfiniteCarousel />
             <Skills />
             <Contact />
           </div>

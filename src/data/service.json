@@ -1,6 +1,10 @@
 {
-  "title": "Services",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.",
+  "title": "Hi, I'm Rifky",
+  "description": [
+    "Experienced IT Programmer with over 3 years in Full Stack Web Development, proficient in technologies like PHP, Node.js, Next.js, and SQL. At PT Jurnalindo Aksara Grafika (Bisnis Indonesia Group), I have contributed to the development and enhancement of key digital platforms such as JAGO 2.0, Karier Bisnis Indonesia, and HRIS systems. Collaborating with System Analysts, UI/UX designers, and QA teams, I ensure high-quality and performance-driven solutions that meet business objectives.",
+    "My journey in tech began as a Laboratory Assistant at Universitas Gunadarma, where I honed my leadership and technical mentoring skills. Since then, I’ve successfully developed websites and IT systems for PT Koda Jaya and PT Forkindo Utama, showcasing my ability to translate complex client requirements into functional, scalable digital solutions.",
+    "Passionate about delivering impactful technology solutions, I continuously strive to enhance my expertise and contribute to the growth of innovative projects."
+  ],
   "paragraphes": [
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet.",
     "Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat maecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique volutpat adipiscing vulputate phasellus. Volutpat faucibus"

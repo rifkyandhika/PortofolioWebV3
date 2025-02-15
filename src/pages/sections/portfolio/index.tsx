@@ -10,15 +10,6 @@ import PortfolioItem1 from './items/PortfolioItem1';
 import PortfolioItem2 from './items/PortfolioItem2';
 import PortfolioItem3 from './items/PortfolioItem3';
 
-// Images
-import portfolio1 from '../../../assets/images/portfolio/Portofolio1.png';
-import portfolio2 from '../../../assets/images/portfolio/Portofolio2.jpg';
-import portfolio3 from '../../../assets/images/portfolio/Portofolio3.jpg';
-import portfolio4 from '../../../assets/images/portfolio/Portofolio4.png';
-import portfolio5 from '../../../assets/images/portfolio/Portofolio5.png';
-import portfolio6 from '../../../assets/images/portfolio/Portofolio6.png';
-import portfolio7 from '../../../assets/images/portfolio/Portofolio7.png';
-import portfolio8 from '../../../assets/images/portfolio/Portofolio8.png';
 // --> Portfolio items
 import portfolioItem1 from '../../../assets/images/portfolio/items/item_03.jpg';
 import portfolioItem2 from '../../../assets/images/portfolio/items/item_02.jpg';
@@ -36,15 +27,6 @@ import { PortfolioItemType } from '../../../types/portfolio.types';
 // --------------
 
 function Portfolio() {
-  const images: string[] = [
-    portfolio1,
-    portfolio2,
-    portfolio3,
-    portfolio4,
-    portfolio5,
-    portfolio6,
-    portfolio7,
-  ];
 
   // Portfolio item to be shown (change rendered different components in item folder)
   const [portfolioItem, setPortfolioItem] = useState<number>(0);
@@ -77,8 +59,8 @@ function Portfolio() {
     selectedCategory === 'all'
       ? portfolioData.portfolioItems
       : portfolioData.portfolioItems.filter(
-          (item) => item.category === selectedCategory
-        );
+        (item) => item.category === selectedCategory
+      );
 
   /**
    * Opening portfolio item that the user clicked

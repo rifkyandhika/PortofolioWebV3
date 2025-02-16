@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 // fonts
 import '@fontsource/poppins/100.css';
@@ -38,6 +39,7 @@ function App() {
   return (
     <div className="App">
       <Layout>
+        <SpeedInsights />
         <RouterProvider router={router} />
       </Layout>
     </div>

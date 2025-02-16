@@ -11,7 +11,7 @@ import PortfolioItem2 from './items/PortfolioItem2';
 import PortfolioItem3 from './items/PortfolioItem3';
 
 // --> Portfolio items
-import portfolioItem1 from '../../../assets/images/portfolio/items/item_03.jpg';
+// import portfolioItem1 from '../../../../public/assets/images/portfolio/Portofolio1.1.png';
 import portfolioItem2 from '../../../assets/images/portfolio/items/item_02.jpg';
 // --> Icon Images
 import backArrow from '../../../assets/images/close-left-arrow.png';
@@ -245,7 +245,7 @@ function Portfolio() {
             </p>
           ) : openPortfolio === 2 ? (
             <div className="popup-image-box">
-              <img src={portfolioItem1} alt="portfolio image" />
+              <img src={""} alt="portfolio image" />
             </div>
           ) : openPortfolio === 3 ? (
             <div className="popup-image-box">

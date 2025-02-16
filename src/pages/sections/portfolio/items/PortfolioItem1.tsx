@@ -5,9 +5,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // Images
-import item1 from '../../../../assets/images/portfolio/Portofolio1.png';
-import item2 from '../../../../assets/images/portfolio/Portofolio1.1.png';
-import item3 from '../../../../assets/images/portfolio/Portofolio1.2.png';
+// import item1 from '../../../../assets/images/portfolio/Portofolio1.png';
+// import item2 from '../../../../assets/images/portfolio/Portofolio1.1.png';
+// import item3 from '../../../../assets/images/portfolio/Portofolio1.2.png';
 
 // Styles
 import './portfolio-item.css';
@@ -33,13 +33,13 @@ function PortfolioItem1() {
                 modules={[Pagination, Autoplay]}
                 className="portfolio-slider">
                 <SwiperSlide>
-                  <img src={item1} alt="portfolio item 1" />
+                  <img src={""} alt="portfolio item 1" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={item2} alt="portfolio item 1" />
+                  <img src={""} alt="portfolio item 1" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={item3} alt="portfolio item 1" />
+                  <img src={""} alt="portfolio item 1" />
                 </SwiperSlide>
               </Swiper>
             </div>

@@ -46,7 +46,7 @@
         "caption": "Text"
       },
       "images": {
-        "src": "src/assets/images/portfolio/Portofolio2.jpg",
+        "src": "/assets/images/portfolio/Portofolio2.jpg",
         "alt": "Portofolio2"
       }
     },
@@ -62,7 +62,7 @@
         "caption": "Text"
       },
       "images": {
-        "src": "src/assets/images/portfolio/Portofolio3.jpg",
+        "src": "/assets/images/portfolio/Portofolio3.jpg",
         "alt": "Portofolio3"
       }
     },
@@ -78,7 +78,7 @@
         "caption": "Text"
       },
       "images": {
-        "src": "src/assets/images/portfolio/Portofolio4.png",
+        "src": "/assets/images/portfolio/Portofolio4.png",
         "alt": "Portofolio4"
       }
     },
@@ -94,7 +94,7 @@
         "caption": "Text"
       },
       "images": {
-        "src": "src/assets/images/portfolio/Portofolio5.png",
+        "src": "/assets/images/portfolio/Portofolio5.png",
         "alt": "Portofolio5"
       }
     },
@@ -110,7 +110,7 @@
         "caption": "Text"
       },
       "images": {
-        "src": "src/assets/images/portfolio/Portofolio6.png",
+        "src": "/assets/images/portfolio/Portofolio6.png",
         "alt": "Portofolio6"
       }
     },
@@ -126,7 +126,7 @@
         "caption": "Text"
       },
       "images": {
-        "src": "src/assets/images/portfolio/Portofolio7.png",
+        "src": "/assets/images/portfolio/Portofolio7.png",
         "alt": "Portofolio7"
       }
     },
@@ -142,7 +142,7 @@
         "caption": "Text"
       },
       "images": {
-        "src": "src/assets/images/portfolio/Portofolio8.png",
+        "src": "/assets/images/portfolio/Portofolio8.png",
         "alt": "Portofolio8"
       }
     }

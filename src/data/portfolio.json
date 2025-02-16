@@ -30,7 +30,7 @@
         "caption": "Text"
       },
       "images": {
-        "src": "src/assets/images/portfolio/Portofolio1.png",
+        "src": "/assets/images/portfolio/Portofolio1.png",
         "alt": "Portofolio1"
       }
     },

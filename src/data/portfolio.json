@@ -16,34 +16,30 @@
   "portfolioItems": [
     {
       "order": 0,
-      "category": "html",
+      "category": "reactjs",
       "action": {
         "type": "item",
         "number": 1
       },
       "description": {
-        "text": "Dapur Annisa",
-        "caption": "HTML, CSS"
+        "text": "Karier Bisnis Indonesia",
+        "caption": "Next JS, Node JS"
       },
       "images": {
-        "src": "/assets/images/portfolio/Portofolio1.png",
+        "src": "/assets/images/portfolio/Portofolio5.png",
         "alt": "Portofolio1"
       },
       "detail": {
-        "sub": "This is a collaborative project from Dapur Annisa. The content of this website features the sale of typical Padang cuisine, specifically rendang. With a design characterized by rendang colors, the website signifies its primary focus on selling rendang dishes.",
-        "link": "https://rifkyandhika.github.io/DapurAnnisaa/",
+        "sub": "This project is a job search platform specifically designed for the Bisnis Indonesia Group. Similar to other job portals, this site provides information about open positions within the company. Additionally, it features informative content about Bisnis Indonesia, allowing applicants to gain deeper insights into the company and better understand its culture and values.",
+        "link": "https://karier.bisnisindonesia.id/",
         "imagesDetail": [
           {
-            "src": "/assets/images/portfolio/Portofolio1.png",
+            "src": "/assets/images/portfolio/Portofolio5.png",
             "alt": "Portofolio1"
           },
           {
-            "src": "/assets/images/portfolio/Portofolio1.1.png",
+            "src": "/assets/images/portfolio/Portofolio5.1.png",
             "alt": "Portofolio1.1"
-          },
-          {
-            "src": "/assets/images/portfolio/Portofolio1.2.png",
-            "alt": "Portofolio1.2"
           }
         ]
       }
@@ -84,30 +80,34 @@
     },
     {
       "order": 2,
-      "category": "reactjs",
+      "category": "html",
       "action": {
         "type": "item",
         "number": 3
       },
       "description": {
-        "text": "Karier Bisnis Indonesia",
-        "caption": "Next JS, Node JS"
+        "text": "Dapur Annisa",
+        "caption": "HTML, CSS"
       },
       "images": {
-        "src": "/assets/images/portfolio/Portofolio5.png",
+        "src": "/assets/images/portfolio/Portofolio1.png",
         "alt": "Portofolio5"
       },
       "detail": {
-        "sub": "This project is a job search platform specifically designed for the Bisnis Indonesia Group. Similar to other job portals, this site provides information about open positions within the company. Additionally, it features informative content about Bisnis Indonesia, allowing applicants to gain deeper insights into the company and better understand its culture and values.",
-        "link": "https://karier.bisnisindonesia.id/",
+        "sub": "This is a collaborative project from Dapur Annisa. The content of this website features the sale of typical Padang cuisine, specifically rendang. With a design characterized by rendang colors, the website signifies its primary focus on selling rendang dishes.",
+        "link": "https://rifkyandhika.github.io/DapurAnnisaa/",
         "imagesDetail": [
           {
-            "src": "/assets/images/portfolio/Portofolio5.png",
+            "src": "/assets/images/portfolio/Portofolio1.png",
             "alt": "Portofolio1"
           },
           {
-            "src": "/assets/images/portfolio/Portofolio5.1.png",
+            "src": "/assets/images/portfolio/Portofolio1.1.png",
             "alt": "Portofolio1.1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio1.2.png",
+            "alt": "Portofolio1.2"
           }
         ]
       }
@@ -204,7 +204,9 @@
     }
   ],
   "portfolioItems2": [
-    {"__comment": "Ini hanya untuk cadangan jika ada code diperlukan"},
+    {
+      "__comment": "Ini hanya untuk cadangan jika ada code diperlukan"
+    },
     {
       "order": 1,
       "category": "php",

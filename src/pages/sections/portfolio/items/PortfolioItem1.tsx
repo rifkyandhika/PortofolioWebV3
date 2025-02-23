@@ -4,17 +4,25 @@ import { Pagination, Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-// Images
-// import item1 from '../../../../assets/images/portfolio/Portofolio1.png';
-// import item2 from '../../../../assets/images/portfolio/Portofolio1.1.png';
-// import item3 from '../../../../assets/images/portfolio/Portofolio1.2.png';
-
 // Styles
 import './portfolio-item.css';
 
+// Data
+import portfolioData from '../../../../data/portfolio.json';
+import { PortfolioItemType } from '../../../../types/portfolio.types';
+
+type Item = {
+  portfolioItem: Number;
+};
+
 // -------------------
 
-function PortfolioItem1() {
+function PortfolioItem1({ portfolioItem }: Item) {
+  const filteredData: PortfolioItemType[] =
+    portfolioData.portfolioItems.filter(
+      (item) => item.action.number === portfolioItem
+    );
+
   return (
     <div className="portfolio-item-wrapper">
       <div className="portfolio-content">
@@ -32,39 +40,32 @@ function PortfolioItem1() {
                 loop={true}
                 modules={[Pagination, Autoplay]}
                 className="portfolio-slider">
-                <SwiperSlide>
-                  <img src={""} alt="portfolio item 1" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src={""} alt="portfolio item 1" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src={""} alt="portfolio item 1" />
-                </SwiperSlide>
+                {filteredData[0].detail.imagesDetail.map((item, i) => (
+                  <>
+                    <SwiperSlide>
+                      <img src={item.src} alt={item.alt} />
+                    </SwiperSlide>
+                  </>
+                ))}
               </Swiper>
             </div>
           </div>
 
           <div className="one-half width-40 last">
-            <h2 className="entry-title section-title">Art of Camera</h2>
-
-            <p className="section-info">
-              Two ghostly white figures in coveralls and helmets are softly
-              dancing.
-            </p>
+            <h2 className="entry-title section-title">{filteredData[0].description.text}</h2>
 
             <p>
-              Cras pretium metus pulvinar ultricies auctor. In varius purus
-              blandit sem mollis tristique. Curabitur sed lorem vel ligula
-              pulvinar porttitor. Proin sit amet mauris eleifend amet,
-              ullamcorper lacus. Vangelis rich in heavy atoms descended from
-              astronomers dream of the mind’s cras pretium metus pulvinar
-              ultricies auctor in varius purus blandit.
+              {filteredData[0].detail.sub}
             </p>
 
-            <p>
-              <a className="button">Check Project</a>
-            </p>
+            {filteredData[0].detail.link !== "" ? (
+              <>
+                <p>
+                  <a className="button" target="_blank" href={filteredData[0].detail.link}>Check Project</a>
+                </p>
+              </>
+            ) : ("")}
+
           </div>
         </div>
       </div>

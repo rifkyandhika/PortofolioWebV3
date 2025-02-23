@@ -9,10 +9,6 @@
       "text": "HTML"
     },
     {
-      "category": "php",
-      "text": "PHP"
-    },
-    {
       "category": "reactjs",
       "text": "React JS"
     }
@@ -26,12 +22,220 @@
         "number": 1
       },
       "description": {
-        "text": "Home",
-        "caption": "Text"
+        "text": "Dapur Annisa",
+        "caption": "HTML, CSS"
       },
       "images": {
         "src": "/assets/images/portfolio/Portofolio1.png",
         "alt": "Portofolio1"
+      },
+      "detail": {
+        "sub": "This is a collaborative project from Dapur Annisa. The content of this website features the sale of typical Padang cuisine, specifically rendang. With a design characterized by rendang colors, the website signifies its primary focus on selling rendang dishes.",
+        "link": "https://rifkyandhika.github.io/DapurAnnisaa/",
+        "imagesDetail": [
+          {
+            "src": "/assets/images/portfolio/Portofolio1.png",
+            "alt": "Portofolio1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio1.1.png",
+            "alt": "Portofolio1.1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio1.2.png",
+            "alt": "Portofolio1.2"
+          }
+        ]
+      }
+    },
+    {
+      "order": 1,
+      "category": "html",
+      "action": {
+        "type": "item",
+        "number": 2
+      },
+      "description": {
+        "text": "Web Portofolio V1",
+        "caption": "HTML, CSS"
+      },
+      "images": {
+        "src": "/assets/images/portfolio/Portofolio4.png",
+        "alt": "Portofolio4"
+      },
+      "detail": {
+        "sub": "This project is my first foray into the world of web development. It's a humble beginning, aimed at sharing insights into my journey as a developer and the experiences gained from web projects. The interface is simple, designed to provide information about myself and the web projects I've undertaken.",
+        "link": "https://rifkyandhika.github.io/PortofolioWebV1/",
+        "imagesDetail": [
+          {
+            "src": "/assets/images/portfolio/Portofolio4.png",
+            "alt": "Portofolio1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio4.1.png",
+            "alt": "Portofolio1.1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio4.2.png",
+            "alt": "Portofolio1.2"
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "category": "reactjs",
+      "action": {
+        "type": "item",
+        "number": 3
+      },
+      "description": {
+        "text": "Karier Bisnis Indonesia",
+        "caption": "Next JS, Node JS"
+      },
+      "images": {
+        "src": "/assets/images/portfolio/Portofolio5.png",
+        "alt": "Portofolio5"
+      },
+      "detail": {
+        "sub": "This project is a job search platform specifically designed for the Bisnis Indonesia Group. Similar to other job portals, this site provides information about open positions within the company. Additionally, it features informative content about Bisnis Indonesia, allowing applicants to gain deeper insights into the company and better understand its culture and values.",
+        "link": "https://karier.bisnisindonesia.id/",
+        "imagesDetail": [
+          {
+            "src": "/assets/images/portfolio/Portofolio5.png",
+            "alt": "Portofolio1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio5.1.png",
+            "alt": "Portofolio1.1"
+          }
+        ]
+      }
+    },
+    {
+      "order": 3,
+      "category": "reactjs",
+      "action": {
+        "type": "item",
+        "number": 4
+      },
+      "description": {
+        "text": "CMS Bisnis Indonesia",
+        "caption": "Next JS, Node JS"
+      },
+      "images": {
+        "src": "/assets/images/portfolio/Portofolio6.png",
+        "alt": "Portofolio6"
+      },
+      "detail": {
+        "sub": "This project is the Bisnis Indonesia Career CMS page designed for the HR team at Bisnis Indonesia. This CMS manages applicant data inputted through the Bisnis Indonesia Career site, enabling the HR team to assess whether applicants' skills align with the company's needs. Additionally, HR can monitor each stage of the recruitment process. The CMS also includes features for inputting job positions required by the company and creating content that will be displayed on the Bisnis Indonesia Career site.",
+        "link": "",
+        "imagesDetail": [
+          {
+            "src": "/assets/images/portfolio/Portofolio6.png",
+            "alt": "Portofolio1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio6.1.png",
+            "alt": "Portofolio1.1"
+          }
+        ]
+      }
+    },
+    {
+      "order": 4,
+      "category": "reactjs",
+      "action": {
+        "type": "item",
+        "number": 5
+      },
+      "description": {
+        "text": "ESS Bisnis Indonesia",
+        "caption": "Next JS, Node JS"
+      },
+      "images": {
+        "src": "/assets/images/portfolio/Portofolio7.png",
+        "alt": "Portofolio7"
+      },
+      "detail": {
+        "sub": "This project is a web-based Employee Self-Service (ESS) application for employees of the Bisnis Indonesia Group. It provides features such as attendance tracking, leave requests, payroll checking, and other ESS services. With a user-friendly interface and real-time notifications, this application allows employees to independently manage their administrative needs while enabling the HR team to monitor and manage employee data in an integrated manner.",
+        "link": "",
+        "imagesDetail": [
+          {
+            "src": "/assets/images/portfolio/Portofolio7.png",
+            "alt": "Portofolio1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio7.1.png",
+            "alt": "Portofolio1.1"
+          }
+        ]
+      }
+    },
+    {
+      "order": 5,
+      "category": "reactjs",
+      "action": {
+        "type": "item",
+        "number": 6
+      },
+      "description": {
+        "text": "HRIS Bisnis Indonesia",
+        "caption": "Next JS, Node JS"
+      },
+      "images": {
+        "src": "/assets/images/portfolio/Portofolio8.png",
+        "alt": "Portofolio8"
+      },
+      "detail": {
+        "sub": "This project is an HRIS (Human Resource Information System) application specifically designed for the HR team at Bisnis Indonesia Group. The application offers various features, including employee attendance tracking, payroll data entry, and management of ESS (Employee Self-Service) access for employees. With its comprehensive and integrated features, this application enables the HR team to efficiently manage employee data, ensure information accuracy, and support faster, more transparent administrative processes.",
+        "link": "",
+        "imagesDetail": [
+          {
+            "src": "/assets/images/portfolio/Portofolio8.png",
+            "alt": "Portofolio1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio8.1.png",
+            "alt": "Portofolio1.1"
+          }
+        ]
+      }
+    }
+  ],
+  "portfolioItems2": [
+    {"__comment": "Ini hanya untuk cadangan jika ada code diperlukan"},
+    {
+      "order": 1,
+      "category": "php",
+      "action": {
+        "type": "item",
+        "number": 2
+      },
+      "description": {
+        "text": "PT Koda Jaya",
+        "caption": "PHP, CSS, Jquery"
+      },
+      "images": {
+        "src": "/assets/images/portfolio/Portofolio3.jpg",
+        "alt": "Portofolio3"
+      },
+      "detail": {
+        "sub": "This is a collaborative project from Dapur Annisa. The content of this website features the sale of typical Padang cuisine, specifically rendang. With a design characterized by rendang colors, the website signifies its primary focus on selling rendang dishes.",
+        "imagesDetail": [
+          {
+            "src": "/assets/images/portfolio/Portofolio1.png",
+            "alt": "Portofolio1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio1.1.png",
+            "alt": "Portofolio1.1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio1.2.png",
+            "alt": "Portofolio1.2"
+          }
+        ]
       }
     },
     {
@@ -42,113 +246,31 @@
         "number": 2
       },
       "description": {
-        "text": "Stairways",
-        "caption": "Text"
+        "text": "Sipesut Wasa Mitra",
+        "caption": "PHP, CSS, Jquery"
       },
       "images": {
         "src": "/assets/images/portfolio/Portofolio2.jpg",
         "alt": "Portofolio2"
+      },
+      "detail": {
+        "sub": "This website is the result of an internship project at CV. Forkindo Utama, an IT consulting company. The developed application serves as an advanced and efficient Enterprise Asset Management solution. Its primary goal is to simplify and enhance the process of inputting asset data from projects managed by PT Wasa Mitra Engineering.",
+        "imagesDetail": [
+          {
+            "src": "/assets/images/portfolio/Portofolio2.png",
+            "alt": "Portofolio1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio2.1.png",
+            "alt": "Portofolio1.1"
+          },
+          {
+            "src": "/assets/images/portfolio/Portofolio1.2.png",
+            "alt": "Portofolio1.2"
+          }
+        ]
       }
     },
-    {
-      "order": 2,
-      "category": "php",
-      "action": {
-        "type": "item",
-        "number": 3
-      },
-      "description": {
-        "text": "Sneakers",
-        "caption": "Text"
-      },
-      "images": {
-        "src": "/assets/images/portfolio/Portofolio3.jpg",
-        "alt": "Portofolio3"
-      }
-    },
-    {
-      "order": 3,
-      "category": "html",
-      "action": {
-        "type": "item",
-        "number": 3
-      },
-      "description": {
-        "text": "Sneakers",
-        "caption": "Text"
-      },
-      "images": {
-        "src": "/assets/images/portfolio/Portofolio4.png",
-        "alt": "Portofolio4"
-      }
-    },
-    {
-      "order": 4,
-      "category": "reactjs",
-      "action": {
-        "type": "item",
-        "number": 3
-      },
-      "description": {
-        "text": "Sneakers",
-        "caption": "Text"
-      },
-      "images": {
-        "src": "/assets/images/portfolio/Portofolio5.png",
-        "alt": "Portofolio5"
-      }
-    },
-    {
-      "order": 5,
-      "category": "reactjs",
-      "action": {
-        "type": "item",
-        "number": 3
-      },
-      "description": {
-        "text": "Sneakers",
-        "caption": "Text"
-      },
-      "images": {
-        "src": "/assets/images/portfolio/Portofolio6.png",
-        "alt": "Portofolio6"
-      }
-    },
-    {
-      "order": 6,
-      "category": "reactjs",
-      "action": {
-        "type": "item",
-        "number": 3
-      },
-      "description": {
-        "text": "Sneakers",
-        "caption": "Text"
-      },
-      "images": {
-        "src": "/assets/images/portfolio/Portofolio7.png",
-        "alt": "Portofolio7"
-      }
-    },
-    {
-      "order": 7,
-      "category": "reactjs",
-      "action": {
-        "type": "item",
-        "number": 3
-      },
-      "description": {
-        "text": "Sneakers",
-        "caption": "Text"
-      },
-      "images": {
-        "src": "/assets/images/portfolio/Portofolio8.png",
-        "alt": "Portofolio8"
-      }
-    }
-  ],
-  "portfolioItems2": [
-    {"__comment": "Ini hanya untuk cadangan jika ada code diperlukan"},
     {
       "order": 0,
       "category": "text",

@@ -14,4 +14,13 @@ export type PortfolioItemType = {
     src: string;
     alt: string;
   };
+  detail: {
+    sub: string;
+    link: string;
+    imagesDetail: 
+      {
+        src: string;
+        alt: string;
+      }[]; // Change this to an array
+  };
 };

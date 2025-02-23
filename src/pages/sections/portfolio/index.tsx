@@ -1,21 +1,14 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 // Plugins
 import { motion, AnimatePresence } from 'framer-motion';
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
 
 // UI Components
 import PortfolioItem1 from './items/PortfolioItem1';
 import PortfolioItem2 from './items/PortfolioItem2';
-import PortfolioItem3 from './items/PortfolioItem3';
 
-// --> Portfolio items
-// import portfolioItem1 from '../../../../public/assets/images/portfolio/Portofolio1.1.png';
-import portfolioItem2 from '../../../assets/images/portfolio/items/item_02.jpg';
 // --> Icon Images
 import backArrow from '../../../assets/images/close-left-arrow.png';
-import closeIcon from '../../../assets/images/close.png';
 
 // Styles
 import './portfolio.css';
@@ -30,8 +23,6 @@ function Portfolio() {
 
   // Portfolio item to be shown (change rendered different components in item folder)
   const [portfolioItem, setPortfolioItem] = useState<number>(0);
-  // Portfolio item to be shown as a popup
-  const [openPortfolio, setOpenPortfolio] = useState<number>(0);
 
   const [isFilterOpen, setIsFilterOpen] = useState<boolean>(false);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -62,6 +53,8 @@ function Portfolio() {
         (item) => item.category === selectedCategory
       );
 
+  console.log('filteredImages :>> ', filteredImages);
+
   /**
    * Opening portfolio item that the user clicked
    *
@@ -82,22 +75,6 @@ function Portfolio() {
    */
   const handlCloseItem = () => {
     setPortfolioItem(0);
-  };
-
-  /**
-   * Open a popup of the item with the given number passed to the function
-   *
-   * @param num Pop up item number to be open
-   */
-  const handleOpenPopup = (num: number) => {
-    setOpenPortfolio(num);
-  };
-
-  /**
-   * Closed the opened items by reseting the {openPortfolio} variable to 0
-   */
-  const handleClosePopup = () => {
-    setOpenPortfolio(0);
   };
 
   return (
@@ -175,11 +152,6 @@ function Portfolio() {
                               typeof item?.action?.number === 'number'
                             ) {
                               handleOpenItem(item.action.number);
-                            } else if (
-                              item?.action?.type === 'popup' &&
-                              typeof item?.action?.number === 'number'
-                            ) {
-                              handleOpenPopup(item.action.number);
                             }
                           }}>
                           <img src={item.images.src} alt={item.images.alt} />
@@ -208,54 +180,20 @@ function Portfolio() {
                   onClick={handlCloseItem}>
                   <img src={backArrow} alt="back arrow" />
                 </div>
-                {portfolioItem === 1 ? (
-                  <PortfolioItem1 />
-                ) : portfolioItem === 2 ? (
-                  <PortfolioItem2 />
-                ) : portfolioItem === 3 ? (
-                  <PortfolioItem3 />
+                {portfolioItem % 2 !== 0 ? (
+                  <PortfolioItem1
+                    portfolioItem={portfolioItem}
+                  />
                 ) : (
-                  <></>
+                  <PortfolioItem2
+                    portfolioItem={portfolioItem}
+                  />
                 )}
               </div>
             )}
           </div>
         </div>
       </div>
-
-      {/* Popups portfolio items */}
-      <Popup
-        open={openPortfolio !== 0}
-        closeOnDocumentClick
-        onClose={handleClosePopup}
-        modal>
-        <div className="my-popup">
-          <div
-            className="close-popup-btn"
-            role="button"
-            onClick={handleClosePopup}>
-            <img src={closeIcon} alt="close icon" />
-          </div>
-          {openPortfolio === 1 ? (
-            <p className="block-right poped-up-item" onClick={close}>
-              <iframe
-                src="https://player.vimeo.com/video/199192931"
-                width="100%"
-                allow="autoplay; fullscreen"></iframe>
-            </p>
-          ) : openPortfolio === 2 ? (
-            <div className="popup-image-box">
-              <img src={""} alt="portfolio image" />
-            </div>
-          ) : openPortfolio === 3 ? (
-            <div className="popup-image-box">
-              <img src={portfolioItem2} alt="portfolio image" />
-            </div>
-          ) : (
-            <></>
-          )}
-        </div>
-      </Popup>
     </section>
   );
 }

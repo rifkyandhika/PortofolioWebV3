@@ -626,8 +626,22 @@ h1.entry-title {
     7. Portfolio Section CSS
 ====================================== */
 
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.portfolio-title {
+  color: #f37b83;
+  margin: 0;
+  font-size: 30px;
+  line-height: 100%;
+  padding-top: 10;
+}
+
 .category-filter {
-  position: absolute;
   right: 0;
   top: -20px;
   z-index: 1;
@@ -695,17 +709,17 @@ h1.entry-title {
 
 .category-filter-list {
   background-color: #362b2e;
-  padding-left: 20px; /* We did this in variants to collapse the toggle button */
-  padding-right: 20px; /* We did this in variants to collapse the toggle button */
+  padding-left: 20px;
+  padding-right: 20px;
   width: 110px;
   display: block;
   position: absolute;
   right: 0;
-  top: 15px;
+  top: 100px; /* Adjusted to ensure it appears below the filter icon */
   font-size: 13px;
   line-height: 22px;
   color: #faefff;
-  z-index: 10;
+  z-index: 10; /* Ensure it has a higher z-index */
   overflow: hidden;
   cursor: pointer;
 }

@@ -53,8 +53,6 @@ function Portfolio() {
         (item) => item.category === selectedCategory
       );
 
-  console.log('filteredImages :>> ', filteredImages);
-
   /**
    * Opening portfolio item that the user clicked
    *
@@ -84,10 +82,13 @@ function Portfolio() {
           <div id="portfolio-wrapper" className="relative">
             {portfolioItem === 0 ? (
               <>
-                <div
-                  className="category-filter"
-                  onClick={handleToggleFilterBtns}>
-                  <div className="category-filter-icon"></div>
+                <div className="header-wrapper">
+                  <h2 className="portfolio-title">Portofolio</h2>
+                  <div
+                    className="category-filter"
+                    onClick={handleToggleFilterBtns}>
+                    <div className="category-filter-icon"></div>
+                  </div>
                 </div>
                 <motion.div
                   variants={{
